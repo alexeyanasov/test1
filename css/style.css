@@ -72,21 +72,68 @@ input[type="radio"].visually-hidden {
 .social-link--svg:hover{
     fill: #3d6cfb;
 }
-.row-select{
-    font-size: 14px;
-    margin-top: -30px;
-    padding-bottom: 15px;
-    position: relative;
+.row-select {
+  font-size     : 14px;
+  margin-top    : -30px;
+  padding-bottom: 15px;
+  position      : relative;
+  cursor        : pointer;
 }
-.row-select::after{
-    position: absolute;
-    content: "";
-    width: 13px;
-    height: 8px;
-    background-image: url(../img/arrow.png);
-    display: block;
-    top: 5px;
-    right: 25px;
+
+.row-select__head {
+  position     : relative;
+  margin-bottom: 5px;
+}
+
+.row-select__body {
+  display       : none;
+  position      : absolute;
+  background    : #8d8d8d;
+  padding-top   : 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+
+}
+
+.row-select__body button {
+  display      : block;
+  width        : 100%;
+  text-align   : left;
+  border       : 0;
+  margin-bottom: 5px;
+  padding-left : 3px;
+  cursor       : pointer;
+  background   : transparent;
+  color        : #fff;
+}
+
+.row-select__body button:hover {
+  background: #fff;
+  color     : #000;
+}
+
+.row-select__body button:last-child {
+  margin-bottom: 0;
+}
+
+.row-select::after {
+  pointer-events  : none;
+  position        : absolute;
+  content         : "";
+  width           : 13px;
+  height          : 8px;
+  background-image: url(../img/arrow.png);
+  display         : block;
+  top             : 5px;
+  right           : 25px;
+}
+
+.arrow-flip::after {
+  transform: rotate(180deg);
+}
+
+.langs-show {
+  display: block;
 }
 .hero-content{
     display: flex;

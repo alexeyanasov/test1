@@ -551,16 +551,16 @@ slideRight
 
 @keyframes slideRight {
 	0% {
-		transform: translateX(-150%);
+		transform: translateX(-70%);
 	}
 	50%{
-		transform: translateX(50%);
+		transform: translateX(70%);
 	}
 	65%{
-		transform: translateX(35%);
+		transform: translateX(50%);
 	}
 	80%{
-		transform: translateX(20%);
+		transform: translateX(25%);
 	}
 	95%{
 		transform: translateX(10%);
@@ -572,19 +572,19 @@ slideRight
 
 @-webkit-keyframes slideRight {
 	0% {
-		-webkit-transform: translateX(-150%);
+		-webkit-transform: translateX(-70%);
 	}
 	50%{
-		-webkit-transform: translateX(8%);
+		-webkit-transform: translateX(70%);
 	}
 	65%{
-		-webkit-transform: translateX(-4%);
+		-webkit-transform: translateX(50%);
 	}
 	80%{
-		-webkit-transform: translateX(4%);
+		-webkit-transform: translateX(25%);
 	}
 	95%{
-		-webkit-transform: translateX(-2%);
+		-webkit-transform: translateX(10%);
 	}			
 	100% {
 		-webkit-transform: translateX(0%);

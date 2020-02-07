@@ -30,8 +30,6 @@ input[type="radio"].visually-hidden {
   background-size: cover;
   width: 100%;
   color: #e4e4e4;
-  /* height: 895px; */
-  /* margin-bottom: 195px; */
   position: relative;
 }
 .container {
@@ -59,7 +57,7 @@ input[type="radio"].visually-hidden {
   }
 .wrapper{
   display: block;
-  min-width: 320px;
+  min-width: 290px;
   background-color: #000;
   position: relative;
   color: white;
